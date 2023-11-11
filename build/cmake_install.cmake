@@ -35,6 +35,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("C:/Git/BattleCity/build/extern/glfw/cmake_install.cmake")
+  include("C:/Git/BattleCity/build/extern/glad/cmake_install.cmake")
 
 endif()
 

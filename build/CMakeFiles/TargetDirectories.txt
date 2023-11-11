@@ -4,3 +4,5 @@ C:/Git/BattleCity/build/CMakeFiles/ZERO_CHECK.dir
 C:/Git/BattleCity/build/extern/glfw/CMakeFiles/ALL_BUILD.dir
 C:/Git/BattleCity/build/extern/glfw/src/CMakeFiles/glfw.dir
 C:/Git/BattleCity/build/extern/glfw/src/CMakeFiles/update_mappings.dir
+C:/Git/BattleCity/build/extern/glad/CMakeFiles/glad.dir
+C:/Git/BattleCity/build/extern/glad/CMakeFiles/ALL_BUILD.dir
