@@ -17,49 +17,18 @@ events:
       - "CMakeLists.txt:5 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler:  
+      Compiler: C:/Users/Asus rog/gcc/bin/gcc.exe 
       Build flags: 
       Id flags:  
       
       The output was:
       0
-      MSBuild version 17.6.3+07e294721 for .NET Framework
-      Сборка начата 12.11.2023 2:22:27.
-      
-      Проект "C:\\Git\\BattleCity\\build\\CMakeFiles\\3.27.7\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
-      PrepareForBuild:
-        Создание каталога "Debug\\".
-        Создание каталога "Debug\\CompilerIdC.tlog\\".
-      InitializeBuildStatus:
-        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-      ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
-        CMakeCCompilerId.c
-      Link:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Git\\BattleCity\\build\\CMakeFiles\\3.27.7\\CompilerIdC\\CompilerIdC.exe
-      PostBuildEvent:
-        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
-        :VCEnd
-        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
-      FinalizeBuildStatus:
-        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
-        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Сборка проекта "C:\\Git\\BattleCity\\build\\CMakeFiles\\3.27.7\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
-      
-      Сборка успешно завершена.
-          Предупреждений: 0
-          Ошибок: 0
-      
-      Прошло времени 00:00:00.59
       
       
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
       
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
-      
-      The C compiler identification is MSVC, found in:
-        C:/Git/BattleCity/build/CMakeFiles/3.27.7/CompilerIdC/CompilerIdC.exe
+      The C compiler identification is GNU, found in:
+        C:/Git/BattleCity/build/CMakeFiles/3.27.7/CompilerIdC/a.exe
       
   -
     kind: "message-v1"
@@ -70,49 +39,18 @@ events:
       - "CMakeLists.txt:5 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler:  
+      Compiler: C:/Users/Asus rog/gcc/bin/c++.exe 
       Build flags: 
       Id flags:  
       
       The output was:
       0
-      MSBuild version 17.6.3+07e294721 for .NET Framework
-      Сборка начата 12.11.2023 2:22:28.
-      
-      Проект "C:\\Git\\BattleCity\\build\\CMakeFiles\\3.27.7\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
-      PrepareForBuild:
-        Создание каталога "Debug\\".
-        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
-      InitializeBuildStatus:
-        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-      ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
-        CMakeCXXCompilerId.cpp
-      Link:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Git\\BattleCity\\build\\CMakeFiles\\3.27.7\\CompilerIdCXX\\CompilerIdCXX.exe
-      PostBuildEvent:
-        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
-        :VCEnd
-        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
-      FinalizeBuildStatus:
-        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
-        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Сборка проекта "C:\\Git\\BattleCity\\build\\CMakeFiles\\3.27.7\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
-      
-      Сборка успешно завершена.
-          Предупреждений: 0
-          Ошибок: 0
-      
-      Прошло времени 00:00:00.44
       
       
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
-      
-      The CXX compiler identification is MSVC, found in:
-        C:/Git/BattleCity/build/CMakeFiles/3.27.7/CompilerIdCXX/CompilerIdCXX.exe
+      The CXX compiler identification is GNU, found in:
+        C:/Git/BattleCity/build/CMakeFiles/3.27.7/CompilerIdCXX/a.exe
       
   -
     kind: "try_compile-v1"
@@ -123,50 +61,183 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-aucinq"
-      binary: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-aucinq"
+      source: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-69i08r"
+      binary: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-69i08r"
     cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-aucinq'
+        Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-69i08r'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_05e47.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.6.3+07e294721 for .NET Framework
-        Сборка начата 12.11.2023 2:22:28.
-        
-        Проект "C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aucinq\\cmTC_05e47.vcxproj" в узле 1 (целевые объекты по умолчанию).
-        PrepareForBuild:
-          Создание каталога "cmTC_05e47.dir\\Debug\\".
-          Создание каталога "C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aucinq\\Debug\\".
-          Создание каталога "cmTC_05e47.dir\\Debug\\cmTC_05e47.tlog\\".
-        InitializeBuildStatus:
-          Создание "cmTC_05e47.dir\\Debug\\cmTC_05e47.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_05e47.dir\\Debug\\\\" /Fd"cmTC_05e47.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
-          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32532 для x64
-          CMakeCCompilerABI.c
-          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_05e47.dir\\Debug\\\\" /Fd"cmTC_05e47.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aucinq\\Debug\\cmTC_05e47.exe" /INCREMENTAL /ILK:"cmTC_05e47.dir\\Debug\\cmTC_05e47.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-aucinq/Debug/cmTC_05e47.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-aucinq/Debug/cmTC_05e47.lib" /MACHINE:X64  /machine:x64 cmTC_05e47.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_05e47.vcxproj -> C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aucinq\\Debug\\cmTC_05e47.exe
-        FinalizeBuildStatus:
-          Файл "cmTC_05e47.dir\\Debug\\cmTC_05e47.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_05e47.dir\\Debug\\cmTC_05e47.tlog\\cmTC_05e47.lastbuildstate".
-        Сборка проекта "C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aucinq\\cmTC_05e47.vcxproj" завершена (целевые объекты по умолчанию).
-        
-        Сборка успешно завершена.
-            Предупреждений: 0
-            Ошибок: 0
-        
-        Прошло времени 00:00:00.43
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ASUSRO~1/gcc/bin/make.exe -f Makefile cmTC_cd6ae/fast
+        C:/Users/ASUSRO~1/gcc/bin/make.exe  -f CMakeFiles/cmTC_cd6ae.dir/build.make CMakeFiles/cmTC_cd6ae.dir/build
+        make[1]: Entering directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-69i08r'
+        Building C object CMakeFiles/cmTC_cd6ae.dir/CMakeCCompilerABI.c.obj
+        "C:/Users/Asus rog/gcc/bin/gcc.exe"   -v -o CMakeFiles/cmTC_cd6ae.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCCompilerABI.c"
+        Built by Equation Solution <http://www.Equation.com>.
+        Using built-in specs.
+        COLLECT_GCC=C:/Users/Asus rog/gcc/bin/gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-unknown-linux-gnu --target=x86_64-w64-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gcc/13.1.0 --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/14-20230423 --with-gcc --with-gnu-ld --with-gnu-as --with-ld64=no --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpc --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/cloog --with-libiconv-prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/libiconv --with-diagnostics-color=auto --enable-cloog-backend=isl --enable-targets=i686-w64-mingw32,x86_64-w64-mingw32 --enable-lto --enable-languages=c,c++,fortran --enable-threads=win32 --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes --enable-libquadmath --enable-libquadmath-support --enable-libgomp --disable-checking --disable-nls --disable-tls --disable-win32-registry
+        Thread model: win32
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cd6ae.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cd6ae.dir/'
+         C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -U_REENTRANT C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_cd6ae.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\cckPvkBO.s
+        GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 14.0.0 20230423 (experimental), GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Users/Asus rog/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
+        ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/14-20230423/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gcc/13.1.0/lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"
+        ignoring duplicate directory "C:/Users/Asus rog/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
+        ignoring duplicate directory "C:/Users/Asus rog/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/14-20230423/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
+         C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
+         C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: d7e6a4aaf723c0ed35d0daae80fd3f15
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cd6ae.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cd6ae.dir/'
+         C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_cd6ae.dir/CMakeCCompilerABI.c.obj C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\cckPvkBO.s
+        GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39
+        COMPILER_PATH=C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Asus rog/gcc/bin/../libexec/gcc/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Asus rog/gcc/bin/../lib/gcc/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cd6ae.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cd6ae.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_cd6ae.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_cd6ae.dir/objects.a
+        "C:/Users/Asus rog/gcc/bin/ar.exe" qc CMakeFiles/cmTC_cd6ae.dir/objects.a @CMakeFiles/cmTC_cd6ae.dir/objects1.rsp
+        "C:/Users/Asus rog/gcc/bin/gcc.exe"  -v -Wl,--whole-archive CMakeFiles/cmTC_cd6ae.dir/objects.a -Wl,--no-whole-archive -o cmTC_cd6ae.exe -Wl,--out-implib,libcmTC_cd6ae.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Built by Equation Solution <http://www.Equation.com>.
+        Using built-in specs.
+        COLLECT_GCC=C:/Users/Asus rog/gcc/bin/gcc.exe
+        COLLECT_LTO_WRAPPER=C:/Users/Asus\\ rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-unknown-linux-gnu --target=x86_64-w64-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gcc/13.1.0 --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/14-20230423 --with-gcc --with-gnu-ld --with-gnu-as --with-ld64=no --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpc --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/cloog --with-libiconv-prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/libiconv --with-diagnostics-color=auto --enable-cloog-backend=isl --enable-targets=i686-w64-mingw32,x86_64-w64-mingw32 --enable-lto --enable-languages=c,c++,fortran --enable-threads=win32 --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes --enable-libquadmath --enable-libquadmath-support --enable-libgomp --disable-checking --disable-nls --disable-tls --disable-win32-registry
+        Thread model: win32
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COMPILER_PATH=C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Asus rog/gcc/bin/../libexec/gcc/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Asus rog/gcc/bin/../lib/gcc/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cd6ae.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cd6ae.'
+         C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\ccIJBT67.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/14-20230423 -m i386pep -Bdynamic -o cmTC_cd6ae.exe C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/Asus rog/gcc/bin/../lib/gcc -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles/cmTC_cd6ae.dir/objects.a --no-whole-archive --out-implib libcmTC_cd6ae.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cd6ae.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cd6ae.'
+        make[1]: Leaving directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-69i08r'
         
       exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+          add: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+          add: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include] ==> [C:/Users/Asus rog/gcc/lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        collapse include dir [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed] ==> [C:/Users/Asus rog/gcc/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        collapse include dir [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include] ==> [C:/Users/Asus rog/gcc/x86_64-w64-mingw32/include]
+        implicit include dirs: [C:/Users/Asus rog/gcc/lib/gcc/x86_64-w64-mingw32/13.1.0/include;C:/Users/Asus rog/gcc/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;C:/Users/Asus rog/gcc/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-69i08r']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ASUSRO~1/gcc/bin/make.exe -f Makefile cmTC_cd6ae/fast]
+        ignore line: [C:/Users/ASUSRO~1/gcc/bin/make.exe  -f CMakeFiles/cmTC_cd6ae.dir/build.make CMakeFiles/cmTC_cd6ae.dir/build]
+        ignore line: [make[1]: Entering directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-69i08r']
+        ignore line: [Building C object CMakeFiles/cmTC_cd6ae.dir/CMakeCCompilerABI.c.obj]
+        ignore line: ["C:/Users/Asus rog/gcc/bin/gcc.exe"   -v -o CMakeFiles/cmTC_cd6ae.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Built by Equation Solution <http://www.Equation.com>.]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:/Users/Asus rog/gcc/bin/gcc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-unknown-linux-gnu --target=x86_64-w64-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gcc/13.1.0 --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/14-20230423 --with-gcc --with-gnu-ld --with-gnu-as --with-ld64=no --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpc --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/cloog --with-libiconv-prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/libiconv --with-diagnostics-color=auto --enable-cloog-backend=isl --enable-targets=i686-w64-mingw32,x86_64-w64-mingw32 --enable-lto --enable-languages=c,c++,fortran --enable-threads=win32 --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes --enable-libquadmath --enable-libquadmath-support --enable-libgomp --disable-checking --disable-nls --disable-tls --disable-win32-registry]
+        ignore line: [Thread model: win32]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cd6ae.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cd6ae.dir/']
+        ignore line: [ C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -U_REENTRANT C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_cd6ae.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\cckPvkBO.s]
+        ignore line: [GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 14.0.0 20230423 (experimental)  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Users/Asus rog/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/14-20230423/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gcc/13.1.0/lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "C:/Users/Asus rog/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Users/Asus rog/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/14-20230423/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        ignore line: [ C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        ignore line: [ C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: d7e6a4aaf723c0ed35d0daae80fd3f15]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cd6ae.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cd6ae.dir/']
+        ignore line: [ C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_cd6ae.dir/CMakeCCompilerABI.c.obj C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\cckPvkBO.s]
+        ignore line: [GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39]
+        ignore line: [COMPILER_PATH=C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Asus rog/gcc/bin/../libexec/gcc/]
+        ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/]
+        ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cd6ae.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cd6ae.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_cd6ae.exe]
+        ignore line: ["C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_cd6ae.dir/objects.a]
+        ignore line: ["C:/Users/Asus rog/gcc/bin/ar.exe" qc CMakeFiles/cmTC_cd6ae.dir/objects.a @CMakeFiles/cmTC_cd6ae.dir/objects1.rsp]
+        ignore line: ["C:/Users/Asus rog/gcc/bin/gcc.exe"  -v -Wl --whole-archive CMakeFiles/cmTC_cd6ae.dir/objects.a -Wl --no-whole-archive -o cmTC_cd6ae.exe -Wl --out-implib libcmTC_cd6ae.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [Built by Equation Solution <http://www.Equation.com>.]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:/Users/Asus rog/gcc/bin/gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/Users/Asus\\ rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-unknown-linux-gnu --target=x86_64-w64-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gcc/13.1.0 --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/14-20230423 --with-gcc --with-gnu-ld --with-gnu-as --with-ld64=no --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpc --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/cloog --with-libiconv-prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/libiconv --with-diagnostics-color=auto --enable-cloog-backend=isl --enable-targets=i686-w64-mingw32,x86_64-w64-mingw32 --enable-lto --enable-languages=c,c++,fortran --enable-threads=win32 --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes --enable-libquadmath --enable-libquadmath-support --enable-libgomp --disable-checking --disable-nls --disable-tls --disable-win32-registry]
+        ignore line: [Thread model: win32]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Asus rog/gcc/bin/../libexec/gcc/]
+        ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/]
+        ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cd6ae.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cd6ae.']
+        ignore line: [ C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\ccIJBT67.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/14-20230423 -m i386pep -Bdynamic -o cmTC_cd6ae.exe C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/Asus rog/gcc/bin/../lib/gcc -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles/cmTC_cd6ae.dir/objects.a --no-whole-archive --out-implib libcmTC_cd6ae.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cd6ae.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cd6ae.']
+        ignore line: [make[1]: Leaving directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-69i08r']
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
   -
     kind: "try_compile-v1"
     backtrace:
@@ -176,50 +247,201 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-6im3bq"
-      binary: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-6im3bq"
+      source: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-ndj4c2"
+      binary: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-ndj4c2"
     cmakeVariables:
-      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
-      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-6im3bq'
+        Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-ndj4c2'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_81afa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.6.3+07e294721 for .NET Framework
-        Сборка начата 12.11.2023 2:22:29.
-        
-        Проект "C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6im3bq\\cmTC_81afa.vcxproj" в узле 1 (целевые объекты по умолчанию).
-        PrepareForBuild:
-          Создание каталога "cmTC_81afa.dir\\Debug\\".
-          Создание каталога "C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6im3bq\\Debug\\".
-          Создание каталога "cmTC_81afa.dir\\Debug\\cmTC_81afa.tlog\\".
-        InitializeBuildStatus:
-          Создание "cmTC_81afa.dir\\Debug\\cmTC_81afa.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_81afa.dir\\Debug\\\\" /Fd"cmTC_81afa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
-          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32532 для x64
-          CMakeCXXCompilerABI.cpp
-          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_81afa.dir\\Debug\\\\" /Fd"cmTC_81afa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6im3bq\\Debug\\cmTC_81afa.exe" /INCREMENTAL /ILK:"cmTC_81afa.dir\\Debug\\cmTC_81afa.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-6im3bq/Debug/cmTC_81afa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-6im3bq/Debug/cmTC_81afa.lib" /MACHINE:X64  /machine:x64 cmTC_81afa.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_81afa.vcxproj -> C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6im3bq\\Debug\\cmTC_81afa.exe
-        FinalizeBuildStatus:
-          Файл "cmTC_81afa.dir\\Debug\\cmTC_81afa.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_81afa.dir\\Debug\\cmTC_81afa.tlog\\cmTC_81afa.lastbuildstate".
-        Сборка проекта "C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6im3bq\\cmTC_81afa.vcxproj" завершена (целевые объекты по умолчанию).
-        
-        Сборка успешно завершена.
-            Предупреждений: 0
-            Ошибок: 0
-        
-        Прошло времени 00:00:00.42
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ASUSRO~1/gcc/bin/make.exe -f Makefile cmTC_78092/fast
+        C:/Users/ASUSRO~1/gcc/bin/make.exe  -f CMakeFiles/cmTC_78092.dir/build.make CMakeFiles/cmTC_78092.dir/build
+        make[1]: Entering directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-ndj4c2'
+        Building CXX object CMakeFiles/cmTC_78092.dir/CMakeCXXCompilerABI.cpp.obj
+        "C:/Users/Asus rog/gcc/bin/c++.exe"   -v -o CMakeFiles/cmTC_78092.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
+        Built by Equation Solution <http://www.Equation.com>.
+        Using built-in specs.
+        COLLECT_GCC=C:/Users/Asus rog/gcc/bin/c++.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-unknown-linux-gnu --target=x86_64-w64-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gcc/13.1.0 --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/14-20230423 --with-gcc --with-gnu-ld --with-gnu-as --with-ld64=no --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpc --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/cloog --with-libiconv-prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/libiconv --with-diagnostics-color=auto --enable-cloog-backend=isl --enable-targets=i686-w64-mingw32,x86_64-w64-mingw32 --enable-lto --enable-languages=c,c++,fortran --enable-threads=win32 --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes --enable-libquadmath --enable-libquadmath-support --enable-libgomp --disable-checking --disable-nls --disable-tls --disable-win32-registry
+        Thread model: win32
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_78092.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_78092.dir/'
+         C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -U_REENTRANT C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_78092.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\cczqNRIV.s
+        GNU C++17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 14.0.0 20230423 (experimental), GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Users/Asus rog/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0"
+        ignoring duplicate directory "C:/Users/Asus rog/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0/x86_64-w64-mingw32"
+        ignoring duplicate directory "C:/Users/Asus rog/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0/backward"
+        ignoring duplicate directory "C:/Users/Asus rog/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
+        ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/14-20230423/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gcc/13.1.0/lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"
+        ignoring duplicate directory "C:/Users/Asus rog/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
+        ignoring duplicate directory "C:/Users/Asus rog/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/14-20230423/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0
+         C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0/x86_64-w64-mingw32
+         C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0/backward
+         C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
+         C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
+         C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: 1a0e54417cec195c88f818b16ffedf9a
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_78092.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_78092.dir/'
+         C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_78092.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\cczqNRIV.s
+        GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39
+        COMPILER_PATH=C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Asus rog/gcc/bin/../libexec/gcc/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Asus rog/gcc/bin/../lib/gcc/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_78092.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_78092.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_78092.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_78092.dir/objects.a
+        "C:/Users/Asus rog/gcc/bin/ar.exe" qc CMakeFiles/cmTC_78092.dir/objects.a @CMakeFiles/cmTC_78092.dir/objects1.rsp
+        "C:/Users/Asus rog/gcc/bin/c++.exe"  -v -Wl,--whole-archive CMakeFiles/cmTC_78092.dir/objects.a -Wl,--no-whole-archive -o cmTC_78092.exe -Wl,--out-implib,libcmTC_78092.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Built by Equation Solution <http://www.Equation.com>.
+        Using built-in specs.
+        COLLECT_GCC=C:/Users/Asus rog/gcc/bin/c++.exe
+        COLLECT_LTO_WRAPPER=C:/Users/Asus\\ rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-unknown-linux-gnu --target=x86_64-w64-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gcc/13.1.0 --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/14-20230423 --with-gcc --with-gnu-ld --with-gnu-as --with-ld64=no --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpc --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/cloog --with-libiconv-prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/libiconv --with-diagnostics-color=auto --enable-cloog-backend=isl --enable-targets=i686-w64-mingw32,x86_64-w64-mingw32 --enable-lto --enable-languages=c,c++,fortran --enable-threads=win32 --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes --enable-libquadmath --enable-libquadmath-support --enable-libgomp --disable-checking --disable-nls --disable-tls --disable-win32-registry
+        Thread model: win32
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COMPILER_PATH=C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Asus rog/gcc/bin/../libexec/gcc/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Asus rog/gcc/bin/../lib/gcc/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_78092.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_78092.'
+         C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\ccPqLPzf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/14-20230423 -m i386pep -Bdynamic -o cmTC_78092.exe C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/Asus rog/gcc/bin/../lib/gcc -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles/cmTC_78092.dir/objects.a --no-whole-archive --out-implib libcmTC_78092.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_78092.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_78092.'
+        make[1]: Leaving directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-ndj4c2'
         
       exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0]
+          add: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0/x86_64-w64-mingw32]
+          add: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0/backward]
+          add: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+          add: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+          add: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0] ==> [C:/Users/Asus rog/gcc/include/c++/13.1.0]
+        collapse include dir [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0/x86_64-w64-mingw32] ==> [C:/Users/Asus rog/gcc/include/c++/13.1.0/x86_64-w64-mingw32]
+        collapse include dir [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0/backward] ==> [C:/Users/Asus rog/gcc/include/c++/13.1.0/backward]
+        collapse include dir [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include] ==> [C:/Users/Asus rog/gcc/lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        collapse include dir [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed] ==> [C:/Users/Asus rog/gcc/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        collapse include dir [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include] ==> [C:/Users/Asus rog/gcc/x86_64-w64-mingw32/include]
+        implicit include dirs: [C:/Users/Asus rog/gcc/include/c++/13.1.0;C:/Users/Asus rog/gcc/include/c++/13.1.0/x86_64-w64-mingw32;C:/Users/Asus rog/gcc/include/c++/13.1.0/backward;C:/Users/Asus rog/gcc/lib/gcc/x86_64-w64-mingw32/13.1.0/include;C:/Users/Asus rog/gcc/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;C:/Users/Asus rog/gcc/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-ndj4c2']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ASUSRO~1/gcc/bin/make.exe -f Makefile cmTC_78092/fast]
+        ignore line: [C:/Users/ASUSRO~1/gcc/bin/make.exe  -f CMakeFiles/cmTC_78092.dir/build.make CMakeFiles/cmTC_78092.dir/build]
+        ignore line: [make[1]: Entering directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-ndj4c2']
+        ignore line: [Building CXX object CMakeFiles/cmTC_78092.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: ["C:/Users/Asus rog/gcc/bin/c++.exe"   -v -o CMakeFiles/cmTC_78092.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Built by Equation Solution <http://www.Equation.com>.]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:/Users/Asus rog/gcc/bin/c++.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-unknown-linux-gnu --target=x86_64-w64-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gcc/13.1.0 --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/14-20230423 --with-gcc --with-gnu-ld --with-gnu-as --with-ld64=no --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpc --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/cloog --with-libiconv-prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/libiconv --with-diagnostics-color=auto --enable-cloog-backend=isl --enable-targets=i686-w64-mingw32,x86_64-w64-mingw32 --enable-lto --enable-languages=c,c++,fortran --enable-threads=win32 --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes --enable-libquadmath --enable-libquadmath-support --enable-libgomp --disable-checking --disable-nls --disable-tls --disable-win32-registry]
+        ignore line: [Thread model: win32]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_78092.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_78092.dir/']
+        ignore line: [ C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -U_REENTRANT C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_78092.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\cczqNRIV.s]
+        ignore line: [GNU C++17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 14.0.0 20230423 (experimental)  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Users/Asus rog/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0"]
+        ignore line: [ignoring duplicate directory "C:/Users/Asus rog/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "C:/Users/Asus rog/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0/backward"]
+        ignore line: [ignoring duplicate directory "C:/Users/Asus rog/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/14-20230423/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gcc/13.1.0/lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "C:/Users/Asus rog/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Users/Asus rog/gcc/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/14-20230423/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0]
+        ignore line: [ C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0/x86_64-w64-mingw32]
+        ignore line: [ C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include/c++/13.1.0/backward]
+        ignore line: [ C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        ignore line: [ C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        ignore line: [ C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 1a0e54417cec195c88f818b16ffedf9a]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_78092.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_78092.dir/']
+        ignore line: [ C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_78092.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\cczqNRIV.s]
+        ignore line: [GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39]
+        ignore line: [COMPILER_PATH=C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Asus rog/gcc/bin/../libexec/gcc/]
+        ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/]
+        ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_78092.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_78092.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_78092.exe]
+        ignore line: ["C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_78092.dir/objects.a]
+        ignore line: ["C:/Users/Asus rog/gcc/bin/ar.exe" qc CMakeFiles/cmTC_78092.dir/objects.a @CMakeFiles/cmTC_78092.dir/objects1.rsp]
+        ignore line: ["C:/Users/Asus rog/gcc/bin/c++.exe"  -v -Wl --whole-archive CMakeFiles/cmTC_78092.dir/objects.a -Wl --no-whole-archive -o cmTC_78092.exe -Wl --out-implib libcmTC_78092.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [Built by Equation Solution <http://www.Equation.com>.]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:/Users/Asus rog/gcc/bin/c++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/Users/Asus\\ rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-unknown-linux-gnu --target=x86_64-w64-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gcc/13.1.0 --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/14-20230423 --with-gcc --with-gnu-ld --with-gnu-as --with-ld64=no --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/mpc --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/cloog --with-libiconv-prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_64/libiconv --with-diagnostics-color=auto --enable-cloog-backend=isl --enable-targets=i686-w64-mingw32,x86_64-w64-mingw32 --enable-lto --enable-languages=c,c++,fortran --enable-threads=win32 --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes --enable-libquadmath --enable-libquadmath-support --enable-libgomp --disable-checking --disable-nls --disable-tls --disable-win32-registry]
+        ignore line: [Thread model: win32]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Asus rog/gcc/bin/../libexec/gcc/]
+        ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/]
+        ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_78092.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_78092.']
+        ignore line: [ C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\ccPqLPzf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/14-20230423 -m i386pep -Bdynamic -o cmTC_78092.exe C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/Asus rog/gcc/bin/../lib/gcc -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles/cmTC_78092.dir/objects.a --no-whole-archive --out-implib libcmTC_78092.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_78092.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_78092.']
+        ignore line: [make[1]: Leaving directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-ndj4c2']
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
   -
     kind: "try_compile-v1"
     backtrace:
@@ -231,51 +453,45 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-k25xwo"
-      binary: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-k25xwo"
+      source: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-5fct91"
+      binary: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-5fct91"
     cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
       CMAKE_MODULE_PATH: "C:/Git/BattleCity/extern/glfw/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-k25xwo'
+        Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-5fct91'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_24826.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.6.3+07e294721 for .NET Framework
-        Сборка начата 12.11.2023 2:22:30.
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ASUSRO~1/gcc/bin/make.exe -f Makefile cmTC_7573d/fast
+        C:/Users/ASUSRO~1/gcc/bin/make.exe  -f CMakeFiles/cmTC_7573d.dir/build.make CMakeFiles/cmTC_7573d.dir/build
+        make[1]: Entering directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-5fct91'
+        Building C object CMakeFiles/cmTC_7573d.dir/src.c.obj
+        "C:/Users/Asus rog/gcc/bin/gcc.exe" -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_7573d.dir/src.c.obj -c C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-5fct91/src.c
+        C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-5fct91/src.c: In function 'main':
+        C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-5fct91/src.c:15:3: warning: implicit declaration of function 'pthread_atfork'; did you mean 'pthread_join'? [-Wimplicit-function-declaration]
+           15 |   pthread_atfork(NULL, NULL, NULL);
+              |   ^~~~~~~~~~~~~~
+              |   pthread_join
+        Linking C executable cmTC_7573d.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_7573d.dir/objects.a
+        "C:/Users/Asus rog/gcc/bin/ar.exe" qc CMakeFiles/cmTC_7573d.dir/objects.a @CMakeFiles/cmTC_7573d.dir/objects1.rsp
+        "C:/Users/Asus rog/gcc/bin/gcc.exe" -Wl,--whole-archive CMakeFiles/cmTC_7573d.dir/objects.a -Wl,--no-whole-archive -o cmTC_7573d.exe -Wl,--out-implib,libcmTC_7573d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_7573d.dir/linkLibs.rsp
+        C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_7573d.dir/objects.a(src.c.obj):src.c:(.text+0x35): undefined reference to `pthread_create'
+        C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_7573d.dir/objects.a(src.c.obj):src.c:(.text+0x51): undefined reference to `pthread_detach'
+        C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_7573d.dir/objects.a(src.c.obj):src.c:(.text+0x6d): undefined reference to `pthread_cancel'
+        C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_7573d.dir/objects.a(src.c.obj):src.c:(.text+0x8e): undefined reference to `pthread_join'
+        C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_7573d.dir/objects.a(src.c.obj):src.c:(.text+0xa3): undefined reference to `pthread_atfork'
+        C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_7573d.dir/objects.a(src.c.obj):src.c:(.text+0xad): undefined reference to `pthread_exit'
+        collect2.exe: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_7573d.dir/build.make:102: cmTC_7573d.exe] Error 1
+        make[1]: Leaving directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-5fct91'
+        make: *** [Makefile:127: cmTC_7573d/fast] Error 2
         
-        Проект "C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k25xwo\\cmTC_24826.vcxproj" в узле 1 (целевые объекты по умолчанию).
-        PrepareForBuild:
-          Создание каталога "cmTC_24826.dir\\Debug\\".
-          Создание каталога "C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k25xwo\\Debug\\".
-          Создание каталога "cmTC_24826.dir\\Debug\\cmTC_24826.tlog\\".
-        InitializeBuildStatus:
-          Создание "cmTC_24826.dir\\Debug\\cmTC_24826.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_24826.dir\\Debug\\\\" /Fd"cmTC_24826.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k25xwo\\src.c"
-          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32532 для x64
-          src.c
-          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_24826.dir\\Debug\\\\" /Fd"cmTC_24826.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k25xwo\\src.c"
-        C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k25xwo\\src.c(1,10): fatal  error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k25xwo\\cmTC_24826.vcxproj]
-        Сборка проекта "C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k25xwo\\cmTC_24826.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
-        
-        Ошибка сборки.
-        
-        "C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k25xwo\\cmTC_24826.vcxproj" (целевой объект по умолчанию) (1) ->
-        (Целевой объект ClCompile) -> 
-          C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k25xwo\\src.c(1,10): fatal  error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k25xwo\\cmTC_24826.vcxproj]
-        
-            Предупреждений: 0
-            Ошибок: 1
-        
-        Прошло времени 00:00:00.28
-        
-      exitCode: 1
+      exitCode: 2
   -
     kind: "try_compile-v1"
     backtrace:
@@ -286,53 +502,35 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-x8loux"
-      binary: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-x8loux"
+      source: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-96tdav"
+      binary: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-96tdav"
     cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
       CMAKE_MODULE_PATH: "C:/Git/BattleCity/extern/glfw/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-x8loux'
+        Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-96tdav'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_93cb9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.6.3+07e294721 for .NET Framework
-        Сборка начата 12.11.2023 2:22:30.
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ASUSRO~1/gcc/bin/make.exe -f Makefile cmTC_261de/fast
+        C:/Users/ASUSRO~1/gcc/bin/make.exe  -f CMakeFiles/cmTC_261de.dir/build.make CMakeFiles/cmTC_261de.dir/build
+        make[1]: Entering directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-96tdav'
+        Building C object CMakeFiles/cmTC_261de.dir/CheckFunctionExists.c.obj
+        "C:/Users/Asus rog/gcc/bin/gcc.exe"   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_261de.dir/CheckFunctionExists.c.obj -c C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-96tdav/CheckFunctionExists.c
+        Linking C executable cmTC_261de.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_261de.dir/objects.a
+        "C:/Users/Asus rog/gcc/bin/ar.exe" qc CMakeFiles/cmTC_261de.dir/objects.a @CMakeFiles/cmTC_261de.dir/objects1.rsp
+        "C:/Users/Asus rog/gcc/bin/gcc.exe"  -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,--whole-archive CMakeFiles/cmTC_261de.dir/objects.a -Wl,--no-whole-archive -o cmTC_261de.exe -Wl,--out-implib,libcmTC_261de.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_261de.dir/linkLibs.rsp
+        C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lpthreads: No such file or directory
+        collect2.exe: error: ld returned 1 exit status
+        make[1]: *** [CMakeFiles/cmTC_261de.dir/build.make:102: cmTC_261de.exe] Error 1
+        make[1]: Leaving directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-96tdav'
+        make: *** [Makefile:127: cmTC_261de/fast] Error 2
         
-        Проект "C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x8loux\\cmTC_93cb9.vcxproj" в узле 1 (целевые объекты по умолчанию).
-        PrepareForBuild:
-          Создание каталога "cmTC_93cb9.dir\\Debug\\".
-          Создание каталога "C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x8loux\\Debug\\".
-          Создание каталога "cmTC_93cb9.dir\\Debug\\cmTC_93cb9.tlog\\".
-        InitializeBuildStatus:
-          Создание "cmTC_93cb9.dir\\Debug\\cmTC_93cb9.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_93cb9.dir\\Debug\\\\" /Fd"cmTC_93cb9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x8loux\\CheckFunctionExists.c"
-          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32532 для x64
-          CheckFunctionExists.c
-          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_93cb9.dir\\Debug\\\\" /Fd"cmTC_93cb9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x8loux\\CheckFunctionExists.c"
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x8loux\\Debug\\cmTC_93cb9.exe" /INCREMENTAL /ILK:"cmTC_93cb9.dir\\Debug\\cmTC_93cb9.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-x8loux/Debug/cmTC_93cb9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-x8loux/Debug/cmTC_93cb9.lib" /MACHINE:X64  /machine:x64 cmTC_93cb9.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib" [C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x8loux\\cmTC_93cb9.vcxproj]
-        Сборка проекта "C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x8loux\\cmTC_93cb9.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
-        
-        Ошибка сборки.
-        
-        "C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x8loux\\cmTC_93cb9.vcxproj" (целевой объект по умолчанию) (1) ->
-        (Целевой объект Link) -> 
-          LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib" [C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x8loux\\cmTC_93cb9.vcxproj]
-        
-            Предупреждений: 0
-            Ошибок: 1
-        
-        Прошло времени 00:00:00.34
-        
-      exitCode: 1
+      exitCode: 2
   -
     kind: "try_compile-v1"
     backtrace:
@@ -343,51 +541,95 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-mx7afp"
-      binary: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-mx7afp"
+      source: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-kxpddf"
+      binary: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-kxpddf"
     cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
       CMAKE_MODULE_PATH: "C:/Git/BattleCity/extern/glfw/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-mx7afp'
+        Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-kxpddf'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_55c9c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.6.3+07e294721 for .NET Framework
-        Сборка начата 12.11.2023 2:22:31.
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ASUSRO~1/gcc/bin/make.exe -f Makefile cmTC_97bac/fast
+        C:/Users/ASUSRO~1/gcc/bin/make.exe  -f CMakeFiles/cmTC_97bac.dir/build.make CMakeFiles/cmTC_97bac.dir/build
+        make[1]: Entering directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-kxpddf'
+        Building C object CMakeFiles/cmTC_97bac.dir/CheckFunctionExists.c.obj
+        "C:/Users/Asus rog/gcc/bin/gcc.exe"   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_97bac.dir/CheckFunctionExists.c.obj -c C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-kxpddf/CheckFunctionExists.c
+        Linking C executable cmTC_97bac.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_97bac.dir/objects.a
+        "C:/Users/Asus rog/gcc/bin/ar.exe" qc CMakeFiles/cmTC_97bac.dir/objects.a @CMakeFiles/cmTC_97bac.dir/objects1.rsp
+        "C:/Users/Asus rog/gcc/bin/gcc.exe"  -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,--whole-archive CMakeFiles/cmTC_97bac.dir/objects.a -Wl,--no-whole-archive -o cmTC_97bac.exe -Wl,--out-implib,libcmTC_97bac.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_97bac.dir/linkLibs.rsp
+        make[1]: Leaving directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-kxpddf'
         
-        Проект "C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mx7afp\\cmTC_55c9c.vcxproj" в узле 1 (целевые объекты по умолчанию).
-        PrepareForBuild:
-          Создание каталога "cmTC_55c9c.dir\\Debug\\".
-          Создание каталога "C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mx7afp\\Debug\\".
-          Создание каталога "cmTC_55c9c.dir\\Debug\\cmTC_55c9c.tlog\\".
-        InitializeBuildStatus:
-          Создание "cmTC_55c9c.dir\\Debug\\cmTC_55c9c.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_55c9c.dir\\Debug\\\\" /Fd"cmTC_55c9c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mx7afp\\CheckFunctionExists.c"
-          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32532 для x64
-          CheckFunctionExists.c
-          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_55c9c.dir\\Debug\\\\" /Fd"cmTC_55c9c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mx7afp\\CheckFunctionExists.c"
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mx7afp\\Debug\\cmTC_55c9c.exe" /INCREMENTAL /ILK:"cmTC_55c9c.dir\\Debug\\cmTC_55c9c.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-mx7afp/Debug/cmTC_55c9c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-mx7afp/Debug/cmTC_55c9c.lib" /MACHINE:X64  /machine:x64 cmTC_55c9c.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: не удается открыть файл "pthread.lib" [C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mx7afp\\cmTC_55c9c.vcxproj]
-        Сборка проекта "C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mx7afp\\cmTC_55c9c.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "extern/glfw/src/CMakeLists.txt:291 (check_include_file)"
+    checks:
+      - "Looking for dinput.h"
+    directories:
+      source: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-y4u6bk"
+      binary: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-y4u6bk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Git/BattleCity/extern/glfw/CMake/modules"
+    buildResult:
+      variable: "DINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-y4u6bk'
         
-        Ошибка сборки.
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ASUSRO~1/gcc/bin/make.exe -f Makefile cmTC_8d2e6/fast
+        C:/Users/ASUSRO~1/gcc/bin/make.exe  -f CMakeFiles/cmTC_8d2e6.dir/build.make CMakeFiles/cmTC_8d2e6.dir/build
+        make[1]: Entering directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-y4u6bk'
+        Building C object CMakeFiles/cmTC_8d2e6.dir/CheckIncludeFile.c.obj
+        "C:/Users/Asus rog/gcc/bin/gcc.exe"    -o CMakeFiles/cmTC_8d2e6.dir/CheckIncludeFile.c.obj -c C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-y4u6bk/CheckIncludeFile.c
+        Linking C executable cmTC_8d2e6.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_8d2e6.dir/objects.a
+        "C:/Users/Asus rog/gcc/bin/ar.exe" qc CMakeFiles/cmTC_8d2e6.dir/objects.a @CMakeFiles/cmTC_8d2e6.dir/objects1.rsp
+        "C:/Users/Asus rog/gcc/bin/gcc.exe" -Wl,--whole-archive CMakeFiles/cmTC_8d2e6.dir/objects.a -Wl,--no-whole-archive -o cmTC_8d2e6.exe -Wl,--out-implib,libcmTC_8d2e6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_8d2e6.dir/linkLibs.rsp
+        make[1]: Leaving directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-y4u6bk'
         
-        "C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mx7afp\\cmTC_55c9c.vcxproj" (целевой объект по умолчанию) (1) ->
-        (Целевой объект Link) -> 
-          LINK : fatal error LNK1104: не удается открыть файл "pthread.lib" [C:\\Git\\BattleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mx7afp\\cmTC_55c9c.vcxproj]
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "extern/glfw/src/CMakeLists.txt:292 (check_include_file)"
+    checks:
+      - "Looking for xinput.h"
+    directories:
+      source: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-uvtc2w"
+      binary: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-uvtc2w"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Git/BattleCity/extern/glfw/CMake/modules"
+    buildResult:
+      variable: "XINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-uvtc2w'
         
-            Предупреждений: 0
-            Ошибок: 1
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ASUSRO~1/gcc/bin/make.exe -f Makefile cmTC_2b176/fast
+        C:/Users/ASUSRO~1/gcc/bin/make.exe  -f CMakeFiles/cmTC_2b176.dir/build.make CMakeFiles/cmTC_2b176.dir/build
+        make[1]: Entering directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-uvtc2w'
+        Building C object CMakeFiles/cmTC_2b176.dir/CheckIncludeFile.c.obj
+        "C:/Users/Asus rog/gcc/bin/gcc.exe"    -o CMakeFiles/cmTC_2b176.dir/CheckIncludeFile.c.obj -c C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-uvtc2w/CheckIncludeFile.c
+        Linking C executable cmTC_2b176.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_2b176.dir/objects.a
+        "C:/Users/Asus rog/gcc/bin/ar.exe" qc CMakeFiles/cmTC_2b176.dir/objects.a @CMakeFiles/cmTC_2b176.dir/objects1.rsp
+        "C:/Users/Asus rog/gcc/bin/gcc.exe" -Wl,--whole-archive CMakeFiles/cmTC_2b176.dir/objects.a -Wl,--no-whole-archive -o cmTC_2b176.exe -Wl,--out-implib,libcmTC_2b176.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_2b176.dir/linkLibs.rsp
+        make[1]: Leaving directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-uvtc2w'
         
-        Прошло времени 00:00:00.33
-        
-      exitCode: 1
+      exitCode: 0
 ...
