@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-69i08r"
-      binary: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-69i08r"
+      source: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-gaeyhj"
+      binary: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-gaeyhj"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,13 +71,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-69i08r'
+        Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-gaeyhj'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ASUSRO~1/gcc/bin/make.exe -f Makefile cmTC_cd6ae/fast
-        C:/Users/ASUSRO~1/gcc/bin/make.exe  -f CMakeFiles/cmTC_cd6ae.dir/build.make CMakeFiles/cmTC_cd6ae.dir/build
-        make[1]: Entering directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-69i08r'
-        Building C object CMakeFiles/cmTC_cd6ae.dir/CMakeCCompilerABI.c.obj
-        "C:/Users/Asus rog/gcc/bin/gcc.exe"   -v -o CMakeFiles/cmTC_cd6ae.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCCompilerABI.c"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ASUSRO~1/gcc/bin/make.exe -f Makefile cmTC_359d0/fast
+        C:/Users/ASUSRO~1/gcc/bin/make.exe  -f CMakeFiles/cmTC_359d0.dir/build.make CMakeFiles/cmTC_359d0.dir/build
+        make[1]: Entering directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-gaeyhj'
+        Building C object CMakeFiles/cmTC_359d0.dir/CMakeCCompilerABI.c.obj
+        "C:/Users/Asus rog/gcc/bin/gcc.exe"   -v -o CMakeFiles/cmTC_359d0.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCCompilerABI.c"
         Built by Equation Solution <http://www.Equation.com>.
         Using built-in specs.
         COLLECT_GCC=C:/Users/Asus rog/gcc/bin/gcc.exe
@@ -86,8 +86,8 @@ events:
         Thread model: win32
         Supported LTO compression algorithms: zlib
         gcc version 13.1.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cd6ae.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cd6ae.dir/'
-         C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -U_REENTRANT C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_cd6ae.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\cckPvkBO.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_359d0.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_359d0.dir/'
+         C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -U_REENTRANT C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_359d0.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\cc6x66vX.s
         GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 14.0.0 20230423 (experimental), GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -103,16 +103,16 @@ events:
          C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: d7e6a4aaf723c0ed35d0daae80fd3f15
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cd6ae.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cd6ae.dir/'
-         C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_cd6ae.dir/CMakeCCompilerABI.c.obj C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\cckPvkBO.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_359d0.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_359d0.dir/'
+         C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_359d0.dir/CMakeCCompilerABI.c.obj C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\cc6x66vX.s
         GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39
         COMPILER_PATH=C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Asus rog/gcc/bin/../libexec/gcc/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Asus rog/gcc/bin/../lib/gcc/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cd6ae.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cd6ae.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_cd6ae.exe
-        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_cd6ae.dir/objects.a
-        "C:/Users/Asus rog/gcc/bin/ar.exe" qc CMakeFiles/cmTC_cd6ae.dir/objects.a @CMakeFiles/cmTC_cd6ae.dir/objects1.rsp
-        "C:/Users/Asus rog/gcc/bin/gcc.exe"  -v -Wl,--whole-archive CMakeFiles/cmTC_cd6ae.dir/objects.a -Wl,--no-whole-archive -o cmTC_cd6ae.exe -Wl,--out-implib,libcmTC_cd6ae.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_359d0.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_359d0.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_359d0.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_359d0.dir/objects.a
+        "C:/Users/Asus rog/gcc/bin/ar.exe" qc CMakeFiles/cmTC_359d0.dir/objects.a @CMakeFiles/cmTC_359d0.dir/objects1.rsp
+        "C:/Users/Asus rog/gcc/bin/gcc.exe"  -v -Wl,--whole-archive CMakeFiles/cmTC_359d0.dir/objects.a -Wl,--no-whole-archive -o cmTC_359d0.exe -Wl,--out-implib,libcmTC_359d0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
         Built by Equation Solution <http://www.Equation.com>.
         Using built-in specs.
         COLLECT_GCC=C:/Users/Asus rog/gcc/bin/gcc.exe
@@ -124,10 +124,10 @@ events:
         gcc version 13.1.0 (GCC) 
         COMPILER_PATH=C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Asus rog/gcc/bin/../libexec/gcc/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Asus rog/gcc/bin/../lib/gcc/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cd6ae.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cd6ae.'
-         C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\ccIJBT67.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/14-20230423 -m i386pep -Bdynamic -o cmTC_cd6ae.exe C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/Asus rog/gcc/bin/../lib/gcc -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles/cmTC_cd6ae.dir/objects.a --no-whole-archive --out-implib libcmTC_cd6ae.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cd6ae.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cd6ae.'
-        make[1]: Leaving directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-69i08r'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_359d0.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_359d0.'
+         C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\cc21RXg9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/14-20230423 -m i386pep -Bdynamic -o cmTC_359d0.exe C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/Asus rog/gcc/bin/../lib/gcc -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles/cmTC_359d0.dir/objects.a --no-whole-archive --out-implib libcmTC_359d0.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_359d0.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_359d0.'
+        make[1]: Leaving directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-gaeyhj'
         
       exitCode: 0
   -
@@ -159,13 +159,13 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-69i08r']
+        ignore line: [Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-gaeyhj']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ASUSRO~1/gcc/bin/make.exe -f Makefile cmTC_cd6ae/fast]
-        ignore line: [C:/Users/ASUSRO~1/gcc/bin/make.exe  -f CMakeFiles/cmTC_cd6ae.dir/build.make CMakeFiles/cmTC_cd6ae.dir/build]
-        ignore line: [make[1]: Entering directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-69i08r']
-        ignore line: [Building C object CMakeFiles/cmTC_cd6ae.dir/CMakeCCompilerABI.c.obj]
-        ignore line: ["C:/Users/Asus rog/gcc/bin/gcc.exe"   -v -o CMakeFiles/cmTC_cd6ae.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ASUSRO~1/gcc/bin/make.exe -f Makefile cmTC_359d0/fast]
+        ignore line: [C:/Users/ASUSRO~1/gcc/bin/make.exe  -f CMakeFiles/cmTC_359d0.dir/build.make CMakeFiles/cmTC_359d0.dir/build]
+        ignore line: [make[1]: Entering directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-gaeyhj']
+        ignore line: [Building C object CMakeFiles/cmTC_359d0.dir/CMakeCCompilerABI.c.obj]
+        ignore line: ["C:/Users/Asus rog/gcc/bin/gcc.exe"   -v -o CMakeFiles/cmTC_359d0.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCCompilerABI.c"]
         ignore line: [Built by Equation Solution <http://www.Equation.com>.]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:/Users/Asus rog/gcc/bin/gcc.exe]
@@ -174,8 +174,8 @@ events:
         ignore line: [Thread model: win32]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 13.1.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cd6ae.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cd6ae.dir/']
-        ignore line: [ C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -U_REENTRANT C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_cd6ae.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\cckPvkBO.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_359d0.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_359d0.dir/']
+        ignore line: [ C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -U_REENTRANT C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_359d0.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\cc6x66vX.s]
         ignore line: [GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 14.0.0 20230423 (experimental)  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -191,8 +191,8 @@ events:
         ignore line: [ C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: d7e6a4aaf723c0ed35d0daae80fd3f15]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cd6ae.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cd6ae.dir/']
-        ignore line: [ C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_cd6ae.dir/CMakeCCompilerABI.c.obj C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\cckPvkBO.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_359d0.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_359d0.dir/']
+        ignore line: [ C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_359d0.dir/CMakeCCompilerABI.c.obj C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\cc6x66vX.s]
         ignore line: [GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39]
         ignore line: [COMPILER_PATH=C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
         ignore line: [C:/Users/Asus rog/gcc/bin/../libexec/gcc/]
@@ -203,11 +203,11 @@ events:
         ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cd6ae.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cd6ae.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_cd6ae.exe]
-        ignore line: ["C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_cd6ae.dir/objects.a]
-        ignore line: ["C:/Users/Asus rog/gcc/bin/ar.exe" qc CMakeFiles/cmTC_cd6ae.dir/objects.a @CMakeFiles/cmTC_cd6ae.dir/objects1.rsp]
-        ignore line: ["C:/Users/Asus rog/gcc/bin/gcc.exe"  -v -Wl --whole-archive CMakeFiles/cmTC_cd6ae.dir/objects.a -Wl --no-whole-archive -o cmTC_cd6ae.exe -Wl --out-implib libcmTC_cd6ae.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_359d0.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_359d0.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_359d0.exe]
+        ignore line: ["C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_359d0.dir/objects.a]
+        ignore line: ["C:/Users/Asus rog/gcc/bin/ar.exe" qc CMakeFiles/cmTC_359d0.dir/objects.a @CMakeFiles/cmTC_359d0.dir/objects1.rsp]
+        ignore line: ["C:/Users/Asus rog/gcc/bin/gcc.exe"  -v -Wl --whole-archive CMakeFiles/cmTC_359d0.dir/objects.a -Wl --no-whole-archive -o cmTC_359d0.exe -Wl --out-implib libcmTC_359d0.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
         ignore line: [Built by Equation Solution <http://www.Equation.com>.]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:/Users/Asus rog/gcc/bin/gcc.exe]
@@ -226,10 +226,10 @@ events:
         ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cd6ae.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cd6ae.']
-        ignore line: [ C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\ccIJBT67.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/14-20230423 -m i386pep -Bdynamic -o cmTC_cd6ae.exe C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/Asus rog/gcc/bin/../lib/gcc -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles/cmTC_cd6ae.dir/objects.a --no-whole-archive --out-implib libcmTC_cd6ae.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cd6ae.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cd6ae.']
-        ignore line: [make[1]: Leaving directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-69i08r']
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_359d0.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_359d0.']
+        ignore line: [ C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\cc21RXg9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/14-20230423 -m i386pep -Bdynamic -o cmTC_359d0.exe C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/Asus rog/gcc/bin/../lib/gcc -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles/cmTC_359d0.dir/objects.a --no-whole-archive --out-implib libcmTC_359d0.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_359d0.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_359d0.']
+        ignore line: [make[1]: Leaving directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-gaeyhj']
         ignore line: []
         ignore line: []
         implicit libs: []
@@ -247,8 +247,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-ndj4c2"
-      binary: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-ndj4c2"
+      source: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-5is9al"
+      binary: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-5is9al"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -257,13 +257,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-ndj4c2'
+        Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-5is9al'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ASUSRO~1/gcc/bin/make.exe -f Makefile cmTC_78092/fast
-        C:/Users/ASUSRO~1/gcc/bin/make.exe  -f CMakeFiles/cmTC_78092.dir/build.make CMakeFiles/cmTC_78092.dir/build
-        make[1]: Entering directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-ndj4c2'
-        Building CXX object CMakeFiles/cmTC_78092.dir/CMakeCXXCompilerABI.cpp.obj
-        "C:/Users/Asus rog/gcc/bin/c++.exe"   -v -o CMakeFiles/cmTC_78092.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ASUSRO~1/gcc/bin/make.exe -f Makefile cmTC_327c2/fast
+        C:/Users/ASUSRO~1/gcc/bin/make.exe  -f CMakeFiles/cmTC_327c2.dir/build.make CMakeFiles/cmTC_327c2.dir/build
+        make[1]: Entering directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-5is9al'
+        Building CXX object CMakeFiles/cmTC_327c2.dir/CMakeCXXCompilerABI.cpp.obj
+        "C:/Users/Asus rog/gcc/bin/c++.exe"   -v -o CMakeFiles/cmTC_327c2.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
         Built by Equation Solution <http://www.Equation.com>.
         Using built-in specs.
         COLLECT_GCC=C:/Users/Asus rog/gcc/bin/c++.exe
@@ -272,8 +272,8 @@ events:
         Thread model: win32
         Supported LTO compression algorithms: zlib
         gcc version 13.1.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_78092.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_78092.dir/'
-         C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -U_REENTRANT C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_78092.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\cczqNRIV.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_327c2.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_327c2.dir/'
+         C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -U_REENTRANT C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_327c2.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\ccDGZ94C.s
         GNU C++17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 14.0.0 20230423 (experimental), GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -295,16 +295,16 @@ events:
          C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: 1a0e54417cec195c88f818b16ffedf9a
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_78092.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_78092.dir/'
-         C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_78092.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\cczqNRIV.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_327c2.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_327c2.dir/'
+         C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_327c2.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\ccDGZ94C.s
         GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39
         COMPILER_PATH=C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Asus rog/gcc/bin/../libexec/gcc/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Asus rog/gcc/bin/../lib/gcc/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_78092.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_78092.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_78092.exe
-        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_78092.dir/objects.a
-        "C:/Users/Asus rog/gcc/bin/ar.exe" qc CMakeFiles/cmTC_78092.dir/objects.a @CMakeFiles/cmTC_78092.dir/objects1.rsp
-        "C:/Users/Asus rog/gcc/bin/c++.exe"  -v -Wl,--whole-archive CMakeFiles/cmTC_78092.dir/objects.a -Wl,--no-whole-archive -o cmTC_78092.exe -Wl,--out-implib,libcmTC_78092.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_327c2.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_327c2.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_327c2.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_327c2.dir/objects.a
+        "C:/Users/Asus rog/gcc/bin/ar.exe" qc CMakeFiles/cmTC_327c2.dir/objects.a @CMakeFiles/cmTC_327c2.dir/objects1.rsp
+        "C:/Users/Asus rog/gcc/bin/c++.exe"  -v -Wl,--whole-archive CMakeFiles/cmTC_327c2.dir/objects.a -Wl,--no-whole-archive -o cmTC_327c2.exe -Wl,--out-implib,libcmTC_327c2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
         Built by Equation Solution <http://www.Equation.com>.
         Using built-in specs.
         COLLECT_GCC=C:/Users/Asus rog/gcc/bin/c++.exe
@@ -316,10 +316,10 @@ events:
         gcc version 13.1.0 (GCC) 
         COMPILER_PATH=C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Asus rog/gcc/bin/../libexec/gcc/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Asus rog/gcc/bin/../lib/gcc/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_78092.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_78092.'
-         C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\ccPqLPzf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/14-20230423 -m i386pep -Bdynamic -o cmTC_78092.exe C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/Asus rog/gcc/bin/../lib/gcc -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles/cmTC_78092.dir/objects.a --no-whole-archive --out-implib libcmTC_78092.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_78092.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_78092.'
-        make[1]: Leaving directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-ndj4c2'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_327c2.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_327c2.'
+         C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\ccZ1XkrP.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/14-20230423 -m i386pep -Bdynamic -o cmTC_327c2.exe C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/Asus rog/gcc/bin/../lib/gcc -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles/cmTC_327c2.dir/objects.a --no-whole-archive --out-implib libcmTC_327c2.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_327c2.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_327c2.'
+        make[1]: Leaving directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-5is9al'
         
       exitCode: 0
   -
@@ -357,13 +357,13 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-ndj4c2']
+        ignore line: [Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-5is9al']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ASUSRO~1/gcc/bin/make.exe -f Makefile cmTC_78092/fast]
-        ignore line: [C:/Users/ASUSRO~1/gcc/bin/make.exe  -f CMakeFiles/cmTC_78092.dir/build.make CMakeFiles/cmTC_78092.dir/build]
-        ignore line: [make[1]: Entering directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-ndj4c2']
-        ignore line: [Building CXX object CMakeFiles/cmTC_78092.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: ["C:/Users/Asus rog/gcc/bin/c++.exe"   -v -o CMakeFiles/cmTC_78092.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ASUSRO~1/gcc/bin/make.exe -f Makefile cmTC_327c2/fast]
+        ignore line: [C:/Users/ASUSRO~1/gcc/bin/make.exe  -f CMakeFiles/cmTC_327c2.dir/build.make CMakeFiles/cmTC_327c2.dir/build]
+        ignore line: [make[1]: Entering directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-5is9al']
+        ignore line: [Building CXX object CMakeFiles/cmTC_327c2.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: ["C:/Users/Asus rog/gcc/bin/c++.exe"   -v -o CMakeFiles/cmTC_327c2.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"]
         ignore line: [Built by Equation Solution <http://www.Equation.com>.]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:/Users/Asus rog/gcc/bin/c++.exe]
@@ -372,8 +372,8 @@ events:
         ignore line: [Thread model: win32]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 13.1.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_78092.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_78092.dir/']
-        ignore line: [ C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -U_REENTRANT C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_78092.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\cczqNRIV.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_327c2.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_327c2.dir/']
+        ignore line: [ C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -U_REENTRANT C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_327c2.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\ccDGZ94C.s]
         ignore line: [GNU C++17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 14.0.0 20230423 (experimental)  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -395,8 +395,8 @@ events:
         ignore line: [ C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 1a0e54417cec195c88f818b16ffedf9a]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_78092.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_78092.dir/']
-        ignore line: [ C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_78092.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\cczqNRIV.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_327c2.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_327c2.dir/']
+        ignore line: [ C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_327c2.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\ccDGZ94C.s]
         ignore line: [GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39]
         ignore line: [COMPILER_PATH=C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
         ignore line: [C:/Users/Asus rog/gcc/bin/../libexec/gcc/]
@@ -407,11 +407,11 @@ events:
         ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_78092.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_78092.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_78092.exe]
-        ignore line: ["C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_78092.dir/objects.a]
-        ignore line: ["C:/Users/Asus rog/gcc/bin/ar.exe" qc CMakeFiles/cmTC_78092.dir/objects.a @CMakeFiles/cmTC_78092.dir/objects1.rsp]
-        ignore line: ["C:/Users/Asus rog/gcc/bin/c++.exe"  -v -Wl --whole-archive CMakeFiles/cmTC_78092.dir/objects.a -Wl --no-whole-archive -o cmTC_78092.exe -Wl --out-implib libcmTC_78092.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_327c2.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_327c2.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_327c2.exe]
+        ignore line: ["C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_327c2.dir/objects.a]
+        ignore line: ["C:/Users/Asus rog/gcc/bin/ar.exe" qc CMakeFiles/cmTC_327c2.dir/objects.a @CMakeFiles/cmTC_327c2.dir/objects1.rsp]
+        ignore line: ["C:/Users/Asus rog/gcc/bin/c++.exe"  -v -Wl --whole-archive CMakeFiles/cmTC_327c2.dir/objects.a -Wl --no-whole-archive -o cmTC_327c2.exe -Wl --out-implib libcmTC_327c2.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
         ignore line: [Built by Equation Solution <http://www.Equation.com>.]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:/Users/Asus rog/gcc/bin/c++.exe]
@@ -430,10 +430,10 @@ events:
         ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_78092.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_78092.']
-        ignore line: [ C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\ccPqLPzf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/14-20230423 -m i386pep -Bdynamic -o cmTC_78092.exe C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/Asus rog/gcc/bin/../lib/gcc -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles/cmTC_78092.dir/objects.a --no-whole-archive --out-implib libcmTC_78092.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_78092.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_78092.']
-        ignore line: [make[1]: Leaving directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-ndj4c2']
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_327c2.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_327c2.']
+        ignore line: [ C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/Users/Asus rog/gcc/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ASUSRO~1\\AppData\\Local\\Temp\\ccZ1XkrP.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_64/gcc/14-20230423 -m i386pep -Bdynamic -o cmTC_327c2.exe C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/Asus rog/gcc/bin/../lib/gcc -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles/cmTC_327c2.dir/objects.a --no-whole-archive --out-implib libcmTC_327c2.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_327c2.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_327c2.']
+        ignore line: [make[1]: Leaving directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-5is9al']
         ignore line: []
         ignore line: []
         implicit libs: []
@@ -453,8 +453,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-5fct91"
-      binary: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-5fct91"
+      source: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-vvgsry"
+      binary: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-vvgsry"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -464,32 +464,32 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-5fct91'
+        Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-vvgsry'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ASUSRO~1/gcc/bin/make.exe -f Makefile cmTC_7573d/fast
-        C:/Users/ASUSRO~1/gcc/bin/make.exe  -f CMakeFiles/cmTC_7573d.dir/build.make CMakeFiles/cmTC_7573d.dir/build
-        make[1]: Entering directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-5fct91'
-        Building C object CMakeFiles/cmTC_7573d.dir/src.c.obj
-        "C:/Users/Asus rog/gcc/bin/gcc.exe" -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_7573d.dir/src.c.obj -c C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-5fct91/src.c
-        C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-5fct91/src.c: In function 'main':
-        C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-5fct91/src.c:15:3: warning: implicit declaration of function 'pthread_atfork'; did you mean 'pthread_join'? [-Wimplicit-function-declaration]
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ASUSRO~1/gcc/bin/make.exe -f Makefile cmTC_c3e3b/fast
+        C:/Users/ASUSRO~1/gcc/bin/make.exe  -f CMakeFiles/cmTC_c3e3b.dir/build.make CMakeFiles/cmTC_c3e3b.dir/build
+        make[1]: Entering directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-vvgsry'
+        Building C object CMakeFiles/cmTC_c3e3b.dir/src.c.obj
+        "C:/Users/Asus rog/gcc/bin/gcc.exe" -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_c3e3b.dir/src.c.obj -c C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-vvgsry/src.c
+        C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-vvgsry/src.c: In function 'main':
+        C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-vvgsry/src.c:15:3: warning: implicit declaration of function 'pthread_atfork'; did you mean 'pthread_join'? [-Wimplicit-function-declaration]
            15 |   pthread_atfork(NULL, NULL, NULL);
               |   ^~~~~~~~~~~~~~
               |   pthread_join
-        Linking C executable cmTC_7573d.exe
-        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_7573d.dir/objects.a
-        "C:/Users/Asus rog/gcc/bin/ar.exe" qc CMakeFiles/cmTC_7573d.dir/objects.a @CMakeFiles/cmTC_7573d.dir/objects1.rsp
-        "C:/Users/Asus rog/gcc/bin/gcc.exe" -Wl,--whole-archive CMakeFiles/cmTC_7573d.dir/objects.a -Wl,--no-whole-archive -o cmTC_7573d.exe -Wl,--out-implib,libcmTC_7573d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_7573d.dir/linkLibs.rsp
-        C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_7573d.dir/objects.a(src.c.obj):src.c:(.text+0x35): undefined reference to `pthread_create'
-        C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_7573d.dir/objects.a(src.c.obj):src.c:(.text+0x51): undefined reference to `pthread_detach'
-        C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_7573d.dir/objects.a(src.c.obj):src.c:(.text+0x6d): undefined reference to `pthread_cancel'
-        C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_7573d.dir/objects.a(src.c.obj):src.c:(.text+0x8e): undefined reference to `pthread_join'
-        C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_7573d.dir/objects.a(src.c.obj):src.c:(.text+0xa3): undefined reference to `pthread_atfork'
-        C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_7573d.dir/objects.a(src.c.obj):src.c:(.text+0xad): undefined reference to `pthread_exit'
+        Linking C executable cmTC_c3e3b.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_c3e3b.dir/objects.a
+        "C:/Users/Asus rog/gcc/bin/ar.exe" qc CMakeFiles/cmTC_c3e3b.dir/objects.a @CMakeFiles/cmTC_c3e3b.dir/objects1.rsp
+        "C:/Users/Asus rog/gcc/bin/gcc.exe" -Wl,--whole-archive CMakeFiles/cmTC_c3e3b.dir/objects.a -Wl,--no-whole-archive -o cmTC_c3e3b.exe -Wl,--out-implib,libcmTC_c3e3b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_c3e3b.dir/linkLibs.rsp
+        C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_c3e3b.dir/objects.a(src.c.obj):src.c:(.text+0x35): undefined reference to `pthread_create'
+        C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_c3e3b.dir/objects.a(src.c.obj):src.c:(.text+0x51): undefined reference to `pthread_detach'
+        C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_c3e3b.dir/objects.a(src.c.obj):src.c:(.text+0x6d): undefined reference to `pthread_cancel'
+        C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_c3e3b.dir/objects.a(src.c.obj):src.c:(.text+0x8e): undefined reference to `pthread_join'
+        C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_c3e3b.dir/objects.a(src.c.obj):src.c:(.text+0xa3): undefined reference to `pthread_atfork'
+        C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_c3e3b.dir/objects.a(src.c.obj):src.c:(.text+0xad): undefined reference to `pthread_exit'
         collect2.exe: error: ld returned 1 exit status
-        make[1]: *** [CMakeFiles/cmTC_7573d.dir/build.make:102: cmTC_7573d.exe] Error 1
-        make[1]: Leaving directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-5fct91'
-        make: *** [Makefile:127: cmTC_7573d/fast] Error 2
+        make[1]: *** [CMakeFiles/cmTC_c3e3b.dir/build.make:102: cmTC_c3e3b.exe] Error 1
+        make[1]: Leaving directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-vvgsry'
+        make: *** [Makefile:127: cmTC_c3e3b/fast] Error 2
         
       exitCode: 2
   -
@@ -502,8 +502,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-96tdav"
-      binary: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-96tdav"
+      source: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-ljsl9n"
+      binary: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-ljsl9n"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -513,22 +513,22 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-96tdav'
+        Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-ljsl9n'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ASUSRO~1/gcc/bin/make.exe -f Makefile cmTC_261de/fast
-        C:/Users/ASUSRO~1/gcc/bin/make.exe  -f CMakeFiles/cmTC_261de.dir/build.make CMakeFiles/cmTC_261de.dir/build
-        make[1]: Entering directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-96tdav'
-        Building C object CMakeFiles/cmTC_261de.dir/CheckFunctionExists.c.obj
-        "C:/Users/Asus rog/gcc/bin/gcc.exe"   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_261de.dir/CheckFunctionExists.c.obj -c C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-96tdav/CheckFunctionExists.c
-        Linking C executable cmTC_261de.exe
-        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_261de.dir/objects.a
-        "C:/Users/Asus rog/gcc/bin/ar.exe" qc CMakeFiles/cmTC_261de.dir/objects.a @CMakeFiles/cmTC_261de.dir/objects1.rsp
-        "C:/Users/Asus rog/gcc/bin/gcc.exe"  -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,--whole-archive CMakeFiles/cmTC_261de.dir/objects.a -Wl,--no-whole-archive -o cmTC_261de.exe -Wl,--out-implib,libcmTC_261de.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_261de.dir/linkLibs.rsp
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ASUSRO~1/gcc/bin/make.exe -f Makefile cmTC_a6346/fast
+        C:/Users/ASUSRO~1/gcc/bin/make.exe  -f CMakeFiles/cmTC_a6346.dir/build.make CMakeFiles/cmTC_a6346.dir/build
+        make[1]: Entering directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-ljsl9n'
+        Building C object CMakeFiles/cmTC_a6346.dir/CheckFunctionExists.c.obj
+        "C:/Users/Asus rog/gcc/bin/gcc.exe"   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_a6346.dir/CheckFunctionExists.c.obj -c C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-ljsl9n/CheckFunctionExists.c
+        Linking C executable cmTC_a6346.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_a6346.dir/objects.a
+        "C:/Users/Asus rog/gcc/bin/ar.exe" qc CMakeFiles/cmTC_a6346.dir/objects.a @CMakeFiles/cmTC_a6346.dir/objects1.rsp
+        "C:/Users/Asus rog/gcc/bin/gcc.exe"  -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,--whole-archive CMakeFiles/cmTC_a6346.dir/objects.a -Wl,--no-whole-archive -o cmTC_a6346.exe -Wl,--out-implib,libcmTC_a6346.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_a6346.dir/linkLibs.rsp
         C:/Users/Asus rog/gcc/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lpthreads: No such file or directory
         collect2.exe: error: ld returned 1 exit status
-        make[1]: *** [CMakeFiles/cmTC_261de.dir/build.make:102: cmTC_261de.exe] Error 1
-        make[1]: Leaving directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-96tdav'
-        make: *** [Makefile:127: cmTC_261de/fast] Error 2
+        make[1]: *** [CMakeFiles/cmTC_a6346.dir/build.make:102: cmTC_a6346.exe] Error 1
+        make[1]: Leaving directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-ljsl9n'
+        make: *** [Makefile:127: cmTC_a6346/fast] Error 2
         
       exitCode: 2
   -
@@ -541,8 +541,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-kxpddf"
-      binary: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-kxpddf"
+      source: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-vvr7vo"
+      binary: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-vvr7vo"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -552,18 +552,18 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-kxpddf'
+        Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-vvr7vo'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ASUSRO~1/gcc/bin/make.exe -f Makefile cmTC_97bac/fast
-        C:/Users/ASUSRO~1/gcc/bin/make.exe  -f CMakeFiles/cmTC_97bac.dir/build.make CMakeFiles/cmTC_97bac.dir/build
-        make[1]: Entering directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-kxpddf'
-        Building C object CMakeFiles/cmTC_97bac.dir/CheckFunctionExists.c.obj
-        "C:/Users/Asus rog/gcc/bin/gcc.exe"   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_97bac.dir/CheckFunctionExists.c.obj -c C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-kxpddf/CheckFunctionExists.c
-        Linking C executable cmTC_97bac.exe
-        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_97bac.dir/objects.a
-        "C:/Users/Asus rog/gcc/bin/ar.exe" qc CMakeFiles/cmTC_97bac.dir/objects.a @CMakeFiles/cmTC_97bac.dir/objects1.rsp
-        "C:/Users/Asus rog/gcc/bin/gcc.exe"  -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,--whole-archive CMakeFiles/cmTC_97bac.dir/objects.a -Wl,--no-whole-archive -o cmTC_97bac.exe -Wl,--out-implib,libcmTC_97bac.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_97bac.dir/linkLibs.rsp
-        make[1]: Leaving directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-kxpddf'
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ASUSRO~1/gcc/bin/make.exe -f Makefile cmTC_5f31f/fast
+        C:/Users/ASUSRO~1/gcc/bin/make.exe  -f CMakeFiles/cmTC_5f31f.dir/build.make CMakeFiles/cmTC_5f31f.dir/build
+        make[1]: Entering directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-vvr7vo'
+        Building C object CMakeFiles/cmTC_5f31f.dir/CheckFunctionExists.c.obj
+        "C:/Users/Asus rog/gcc/bin/gcc.exe"   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_5f31f.dir/CheckFunctionExists.c.obj -c C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-vvr7vo/CheckFunctionExists.c
+        Linking C executable cmTC_5f31f.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_5f31f.dir/objects.a
+        "C:/Users/Asus rog/gcc/bin/ar.exe" qc CMakeFiles/cmTC_5f31f.dir/objects.a @CMakeFiles/cmTC_5f31f.dir/objects1.rsp
+        "C:/Users/Asus rog/gcc/bin/gcc.exe"  -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,--whole-archive CMakeFiles/cmTC_5f31f.dir/objects.a -Wl,--no-whole-archive -o cmTC_5f31f.exe -Wl,--out-implib,libcmTC_5f31f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_5f31f.dir/linkLibs.rsp
+        make[1]: Leaving directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-vvr7vo'
         
       exitCode: 0
   -
@@ -574,8 +574,8 @@ events:
     checks:
       - "Looking for dinput.h"
     directories:
-      source: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-y4u6bk"
-      binary: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-y4u6bk"
+      source: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-45c3vj"
+      binary: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-45c3vj"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -585,18 +585,18 @@ events:
       variable: "DINPUT_H_FOUND"
       cached: true
       stdout: |
-        Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-y4u6bk'
+        Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-45c3vj'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ASUSRO~1/gcc/bin/make.exe -f Makefile cmTC_8d2e6/fast
-        C:/Users/ASUSRO~1/gcc/bin/make.exe  -f CMakeFiles/cmTC_8d2e6.dir/build.make CMakeFiles/cmTC_8d2e6.dir/build
-        make[1]: Entering directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-y4u6bk'
-        Building C object CMakeFiles/cmTC_8d2e6.dir/CheckIncludeFile.c.obj
-        "C:/Users/Asus rog/gcc/bin/gcc.exe"    -o CMakeFiles/cmTC_8d2e6.dir/CheckIncludeFile.c.obj -c C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-y4u6bk/CheckIncludeFile.c
-        Linking C executable cmTC_8d2e6.exe
-        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_8d2e6.dir/objects.a
-        "C:/Users/Asus rog/gcc/bin/ar.exe" qc CMakeFiles/cmTC_8d2e6.dir/objects.a @CMakeFiles/cmTC_8d2e6.dir/objects1.rsp
-        "C:/Users/Asus rog/gcc/bin/gcc.exe" -Wl,--whole-archive CMakeFiles/cmTC_8d2e6.dir/objects.a -Wl,--no-whole-archive -o cmTC_8d2e6.exe -Wl,--out-implib,libcmTC_8d2e6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_8d2e6.dir/linkLibs.rsp
-        make[1]: Leaving directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-y4u6bk'
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ASUSRO~1/gcc/bin/make.exe -f Makefile cmTC_3b1e9/fast
+        C:/Users/ASUSRO~1/gcc/bin/make.exe  -f CMakeFiles/cmTC_3b1e9.dir/build.make CMakeFiles/cmTC_3b1e9.dir/build
+        make[1]: Entering directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-45c3vj'
+        Building C object CMakeFiles/cmTC_3b1e9.dir/CheckIncludeFile.c.obj
+        "C:/Users/Asus rog/gcc/bin/gcc.exe"    -o CMakeFiles/cmTC_3b1e9.dir/CheckIncludeFile.c.obj -c C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-45c3vj/CheckIncludeFile.c
+        Linking C executable cmTC_3b1e9.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_3b1e9.dir/objects.a
+        "C:/Users/Asus rog/gcc/bin/ar.exe" qc CMakeFiles/cmTC_3b1e9.dir/objects.a @CMakeFiles/cmTC_3b1e9.dir/objects1.rsp
+        "C:/Users/Asus rog/gcc/bin/gcc.exe" -Wl,--whole-archive CMakeFiles/cmTC_3b1e9.dir/objects.a -Wl,--no-whole-archive -o cmTC_3b1e9.exe -Wl,--out-implib,libcmTC_3b1e9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_3b1e9.dir/linkLibs.rsp
+        make[1]: Leaving directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-45c3vj'
         
       exitCode: 0
   -
@@ -607,8 +607,8 @@ events:
     checks:
       - "Looking for xinput.h"
     directories:
-      source: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-uvtc2w"
-      binary: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-uvtc2w"
+      source: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-zraspl"
+      binary: "C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-zraspl"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -618,18 +618,18 @@ events:
       variable: "XINPUT_H_FOUND"
       cached: true
       stdout: |
-        Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-uvtc2w'
+        Change Dir: 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-zraspl'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ASUSRO~1/gcc/bin/make.exe -f Makefile cmTC_2b176/fast
-        C:/Users/ASUSRO~1/gcc/bin/make.exe  -f CMakeFiles/cmTC_2b176.dir/build.make CMakeFiles/cmTC_2b176.dir/build
-        make[1]: Entering directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-uvtc2w'
-        Building C object CMakeFiles/cmTC_2b176.dir/CheckIncludeFile.c.obj
-        "C:/Users/Asus rog/gcc/bin/gcc.exe"    -o CMakeFiles/cmTC_2b176.dir/CheckIncludeFile.c.obj -c C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-uvtc2w/CheckIncludeFile.c
-        Linking C executable cmTC_2b176.exe
-        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_2b176.dir/objects.a
-        "C:/Users/Asus rog/gcc/bin/ar.exe" qc CMakeFiles/cmTC_2b176.dir/objects.a @CMakeFiles/cmTC_2b176.dir/objects1.rsp
-        "C:/Users/Asus rog/gcc/bin/gcc.exe" -Wl,--whole-archive CMakeFiles/cmTC_2b176.dir/objects.a -Wl,--no-whole-archive -o cmTC_2b176.exe -Wl,--out-implib,libcmTC_2b176.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_2b176.dir/linkLibs.rsp
-        make[1]: Leaving directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-uvtc2w'
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ASUSRO~1/gcc/bin/make.exe -f Makefile cmTC_9e989/fast
+        C:/Users/ASUSRO~1/gcc/bin/make.exe  -f CMakeFiles/cmTC_9e989.dir/build.make CMakeFiles/cmTC_9e989.dir/build
+        make[1]: Entering directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-zraspl'
+        Building C object CMakeFiles/cmTC_9e989.dir/CheckIncludeFile.c.obj
+        "C:/Users/Asus rog/gcc/bin/gcc.exe"    -o CMakeFiles/cmTC_9e989.dir/CheckIncludeFile.c.obj -c C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-zraspl/CheckIncludeFile.c
+        Linking C executable cmTC_9e989.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_9e989.dir/objects.a
+        "C:/Users/Asus rog/gcc/bin/ar.exe" qc CMakeFiles/cmTC_9e989.dir/objects.a @CMakeFiles/cmTC_9e989.dir/objects1.rsp
+        "C:/Users/Asus rog/gcc/bin/gcc.exe" -Wl,--whole-archive CMakeFiles/cmTC_9e989.dir/objects.a -Wl,--no-whole-archive -o cmTC_9e989.exe -Wl,--out-implib,libcmTC_9e989.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_9e989.dir/linkLibs.rsp
+        make[1]: Leaving directory 'C:/Git/BattleCity/build/CMakeFiles/CMakeScratch/TryCompile-zraspl'
         
       exitCode: 0
 ...

@@ -314,6 +314,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\Git\BattleCity\src\main.cpp" />
+    <ClCompile Include="C:\Git\BattleCity\src\Renderer\ShaderProgram.cpp" />
+    <ClInclude Include="C:\Git\BattleCity\src\Renderer\ShaderProgram.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Git\BattleCity\build\ZERO_CHECK.vcxproj">
