@@ -2,8 +2,8 @@
 #include <GLFW/glfw3.h>
 
 #include <iostream>
-
 #include "Renderer/ShaderProgram.h"
+#include "Renderer/source.h"
 
 GLfloat point[] = {
     0.0f, 0.5f, 0.0f,
@@ -53,7 +53,7 @@ void glfwKeyCallback(GLFWwindow* pWindow, int key, int scancode, int action, int
 }
 
 
-int main(void)
+int main(int argc, char *argv[])
 {
     GLFWwindow* pWindow;
 
@@ -94,15 +94,22 @@ int main(void)
 
     glClearColor(1, 1, 0, 1);
 
-    std::string vertexShader(vertex_shader);
-    std::string fragmentShader(fragment_shader);
-    Renderer::shader shaderprogram(vertexShader, fragmentShader);
+    source src(argv[0]);
+    src.loadFile("shader/vs.txt", "vs");
+    src.loadFile("shader/fs.txt", "fs");
+
+    std::string vertexShader(src.getShader("vs"));
+    // std::string vertexShader(vertex_shader);
+    std::string fragmentShader(src.getShader("fs"));
+    // std::string fragmentShader(fragment_shader);
+    Renderer::shader shaderprogram( vertexShader, fragmentShader);
 
     if(!shaderprogram.isCompile()){
         std::cerr << "Can't compile shader program";
         return -1;
     }
     
+
     GLuint point_vbo = 0;
     glGenBuffers(1, &point_vbo); // сгенерировали буфер
     glBindBuffer(GL_ARRAY_BUFFER, point_vbo); // подключили буфер

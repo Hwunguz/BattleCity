@@ -23,7 +23,7 @@ Renderer::shader::shader(std::string& vertexShader, std::string& fragmentShader)
 {
     GLuint vertexShaderID = glCreateShader(GL_VERTEX_SHADER);
     if(!createshader(vertexShader, GL_VERTEX_SHADER, vertexShaderID)){
-        std::cerr << "FRAGMENT SHADER time error" << std::endl;
+        std::cerr << "VERTEX SHADER time error" << std::endl;
         glDeleteShader(vertexShaderID);
         return;
     }
@@ -59,7 +59,7 @@ bool Renderer::shader::createshader(std::string& source, GLenum shaderType, GLui
     glCompileShader(shaderID);
     
     GLint success;
-    glGetShaderiv(shaderID, GL_COMPILE_STATUS, &success);
+    glGetShaderiv(shaderID, GL_COMPILE_STATUS, &success);// получаем данные об ошибках
     if(!success){
         GLchar inflog[1024];
         glGetShaderInfoLog(shaderID, 1024, nullptr, inflog);

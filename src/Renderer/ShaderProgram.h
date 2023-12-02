@@ -6,7 +6,8 @@
 #include <string>
 
 namespace Renderer{
-    class shader{
+    class shader
+    {
 
         GLuint shader_program; //shader program
 
